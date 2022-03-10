@@ -1,0 +1,62 @@
+body{
+
+  opacity: 1;
+}
+ 
+  p, li {
+    font-size: 16px;
+    font-family: serif;
+    background-color: white;
+  }
+   
+   
+  a {
+    text-decoration: none;
+    color:rgb(21, 106, 233);
+  }
+  div.header {
+    background-image: url(https://static01.nyt.com/images/2019/05/29/realestate/00skyline-south4/88ce0191bfc249b6aae1b472158cccc4-superJumbo.jpg);
+    position: sticky;
+    height: 200px;
+    padding: 30px;
+    background-position: center;
+    color:black;
+     font-family: Helvetica;
+     font-weight:lighter; 
+  }
+  div.AboutMe{
+      color: black;
+      text-align: auto;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border-style:inset;
+    }
+  div.Main{
+    position: relative;
+    color: black;
+    padding: left;
+    text-align: start;
+    border-style: inset;
+    border: 100px;
+    overflow: wrap;
+    box-sizing: border-box;
+  }
+  div.Languages{
+    color: black;
+    text-align: start;
+    border-style: inset;
+    overflow: wrap;
+    text-align: start;
+  }
+  
+  div.Outro{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: outset;
+  }
+  footer{
+    text-align: center;
+    padding: 3px;
+    background-color: whitesmoke;
+    color: black;
+    border-style: outset;
+  }
